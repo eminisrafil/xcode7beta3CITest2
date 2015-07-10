@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					234CEE081B4F513C00658C82 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 92PP8M48XE;
 					};
 					234CEE211B4F513C00658C82 = {
 						CreatedOnToolsVersion = 7.0;
@@ -344,7 +345,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Emin Israfil (92PP8M48XE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Emin Israfil (92PP8M48XE)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -366,6 +368,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "a5eaceb0-8d7a-45cd-b28a-2524a5a76530";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -387,7 +390,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Emin Israfil (92PP8M48XE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Emin Israfil (92PP8M48XE)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -402,6 +406,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "a5eaceb0-8d7a-45cd-b28a-2524a5a76530";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -411,10 +416,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Emin Israfil (92PP8M48XE)";
 				INFOPLIST_FILE = xcode7beta3CITest2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eminisrafil.xcode7beta3CITest2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a5eaceb0-8d7a-45cd-b28a-2524a5a76530";
 			};
 			name = Debug;
 		};
@@ -422,10 +429,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Emin Israfil (92PP8M48XE)";
 				INFOPLIST_FILE = xcode7beta3CITest2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eminisrafil.xcode7beta3CITest2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a5eaceb0-8d7a-45cd-b28a-2524a5a76530";
 			};
 			name = Release;
 		};
@@ -437,6 +446,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eminisrafil.xcode7beta3CITest2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a5eaceb0-8d7a-45cd-b28a-2524a5a76530";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcode7beta3CITest2.app/xcode7beta3CITest2";
 			};
 			name = Debug;
@@ -449,6 +459,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eminisrafil.xcode7beta3CITest2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a5eaceb0-8d7a-45cd-b28a-2524a5a76530";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcode7beta3CITest2.app/xcode7beta3CITest2";
 			};
 			name = Release;
@@ -460,6 +471,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eminisrafil.xcode7beta3CITest2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a5eaceb0-8d7a-45cd-b28a-2524a5a76530";
 				TEST_TARGET_NAME = xcode7beta3CITest2;
 				USES_XCTRUNNER = YES;
 			};
@@ -472,6 +484,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eminisrafil.xcode7beta3CITest2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a5eaceb0-8d7a-45cd-b28a-2524a5a76530";
 				TEST_TARGET_NAME = xcode7beta3CITest2;
 				USES_XCTRUNNER = YES;
 			};
@@ -496,6 +509,7 @@
 				234CEE381B4F513C00658C82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		234CEE391B4F513C00658C82 /* Build configuration list for PBXNativeTarget "xcode7beta3CITest2Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +518,7 @@
 				234CEE3B1B4F513C00658C82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		234CEE3C1B4F513C00658C82 /* Build configuration list for PBXNativeTarget "xcode7beta3CITest2UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +527,7 @@
 				234CEE3E1B4F513C00658C82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
