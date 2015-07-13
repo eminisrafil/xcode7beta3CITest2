@@ -51,6 +51,8 @@
 		234CEE2D1B4F513C00658C82 /* xcode7beta3CITest2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcode7beta3CITest2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		234CEE311B4F513C00658C82 /* xcode7beta3CITest2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xcode7beta3CITest2UITests.m; sourceTree = "<group>"; };
 		234CEE331B4F513C00658C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2357068A1B5386F7005801A1 /* xcode7beta3CITest2DistributionProvisioningProfile.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = xcode7beta3CITest2DistributionProvisioningProfile.mobileprovision; sourceTree = "<group>"; };
+		2357068C1B538788005801A1 /* xcode7beta3CITest2DistributionProvisioningProfile.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = xcode7beta3CITest2DistributionProvisioningProfile.mobileprovision; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		234CEE001B4F513C00658C82 = {
 			isa = PBXGroup;
 			children = (
+				2357068A1B5386F7005801A1 /* xcode7beta3CITest2DistributionProvisioningProfile.mobileprovision */,
 				234CEE0B1B4F513C00658C82 /* xcode7beta3CITest2 */,
 				234CEE251B4F513C00658C82 /* xcode7beta3CITest2Tests */,
 				234CEE301B4F513C00658C82 /* xcode7beta3CITest2UITests */,
@@ -101,6 +104,7 @@
 		234CEE0B1B4F513C00658C82 /* xcode7beta3CITest2 */ = {
 			isa = PBXGroup;
 			children = (
+				2357068C1B538788005801A1 /* xcode7beta3CITest2DistributionProvisioningProfile.mobileprovision */,
 				234CEE0F1B4F513C00658C82 /* AppDelegate.h */,
 				234CEE101B4F513C00658C82 /* AppDelegate.m */,
 				234CEE121B4F513C00658C82 /* ViewController.h */,
